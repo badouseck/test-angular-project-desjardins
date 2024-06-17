@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+  word-break: keep-all;
+
+  th, td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  .mat-header-cell {
+    font-size: 14px;
+  }
+
+  .mat-cell {
+    font-size: 13px;
+  }
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
